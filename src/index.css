@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background-color: #9fb8cd;
+}
+.bg-customColor{
+    background-color: #6c5ed2;
+}
