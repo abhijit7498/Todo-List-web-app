@@ -1,8 +1,27 @@
-# React + Vite
+# Todo Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and interactive Todo application built with React that allows users to add, edit, delete, and mark todos as completed. This app uses `react-toastify` for toast notifications and persists data in the local storage.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Add a new todo
+- Edit an existing todo
+- Delete a todo
+- Mark todo as completed
+- Show only completed todos
+- Persist todos in local storage
+- Toast notifications for user actions
+
+## Demo
+
+![Todo Application Screenshot](screenshot.png)
+
+## Installation
+
+To run this project locally, follow these steps:
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/yourusername/todo-app.git
+   cd todo-app
